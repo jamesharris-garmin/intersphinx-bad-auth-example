@@ -3,10 +3,10 @@ services:
     image: caddy:2.11
     restart: unless-stopped
     ports:
-      - "8000:80"
+      - "7999:80"
     volumes:
-      - $PWD/conf:/etc/caddy
-      - $PWD/docs/html:/srv
+      - ./conf:/etc/caddy
+      - ./docs/html:/srv
       - caddy_data:/data
 
 volumes:

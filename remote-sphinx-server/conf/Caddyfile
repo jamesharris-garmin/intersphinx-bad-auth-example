@@ -1,6 +1,8 @@
+# we don't care about encryption in this example it is a toy project.
 {
   auto_https off
 }
+
 :80 {
 
   root * /srv
