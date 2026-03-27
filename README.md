@@ -1,7 +1,7 @@
 # Welcome!
 
 This is a demo project that uses docker-compose to demonstrate a credential
-leak in the sphinx.ext.intersphinx documentation.
+leak in the sphinx.ext.intersphinx documentation (reported in sphinx-doc/sphinx#14342)
 
 It uses a build of the readthedocs-examples/example-sphinx-basic as a remote
 project. It hosts the intersphinx remote in a docker image using caddy and a
